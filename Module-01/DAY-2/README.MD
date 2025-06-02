@@ -16,28 +16,38 @@ a)	If the condition is true, print "true" using the 'print' method of 'System.ou
 b)	If the condition is false, print "false" using the 'print' method of 'System.out'
 9.	End
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Vanitha S
+RegisterNumber:  212222100057
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+import java.util.Scanner;
+public class Demo{
+    public static void main(String[]args){
+        Scanner scanner=new Scanner(System.in);
+        int a=scanner.nextInt();
+        int b=scanner.nextInt();
+        if(a<50 && a<b){
+            System.out.println("true");
+        }
+        else
+        {
+            System.out.println("false");
+        }
+        scanner.close();
+    }
+}
+```
 
 ## OUTPUT:
+
 
 
 
