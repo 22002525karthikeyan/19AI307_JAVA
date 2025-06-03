@@ -12,24 +12,42 @@
 
 
 ## PROGRAM:
- ```
-/*
-Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
-*/
 ```
+Program to implement a Packages using Java
 
+Developed by: KARTHIKEYAN R
+
+RegisterNumber: 212222240046
+
+```
 ## Sourcecode.java:
 
+```
+// File: pack/A.java
+package pack;
 
+public class A {
+    public void msg() {
+        System.out.println("Hello from package pack");
+    }
+}
 
+// File: mypack/B.java
+package mypack;
 
+import pack.A; // Importing class A from package pack
 
-
+public class B {
+    public static void main(String[] args) {
+        A obj = new A();
+        obj.msg();
+    }
+}
+```
 
 ## OUTPUT:
 
+Hello from package pack
 
 
 ## RESULT:
