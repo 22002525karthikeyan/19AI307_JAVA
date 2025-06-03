@@ -1,60 +1,53 @@
-# Ex.No:9(B) BYTE ARRAY I/O
-## AIM:
-To create a java program to write data using ByteArrayOutputStream.
-
+# Ex.No:10(B) JAVA LINKED LIST
+## AIM :
+To Create a java program to perform linkedlist, read size of the list , read the elements for the linkedlist and display the elements from the linkedlist.
 
 ## ALGORITHM :
-1.	The user enters a string (data), followed by two integers (start and length) specifying the starting position and number of characters to write.
-2.	The string data is converted to a byte array (array).
-3.	Using ByteArrayOutputStream, it writes length bytes from array, starting at start.
-4.	The written data is retrieved as a string (streamData) and displayed, showing the original input and the specific segment written to the stream.
-5.	Any exceptions are caught and handled, displaying stack trace information if an error occurs.
+1.	Start the Program
+2.	Import `java.util.*` for input handling and list functionality
+3.	Define class `Hello` with the `main` method:
+-	a) Create `Scanner` object `sc` for input
+-	b) Read an integer `n` to specify the number of strings
+-	c) Create a `LinkedList` named `str` to store strings
+4.	Use a `for` loop to:
+-	a) Read `n` strings from input and add each to `str`
+5.	Print the entire `str` list
+6.	End
+
+
 
 ## PROGRAM:
  ```
-Program to implement a BYTE ARRAY I/O using Java
+Program to implement a JAVA LINKED LIST using Java
 Developed by: KARTHIKEYAN R
 RegisterNumber: 212222240046
 ```
 
 ## Sourcecode.java:
 ```
-import java.io.*;
 import java.util.*;
+
 public class Main {
-    public static void main(String[] args) {
-
+  public static void main(String[] args) {
+   Scanner sc=new Scanner(System.in);
+    LinkedList<String> cars = new LinkedList<String>();
+    int n=sc.nextInt();
+    for(int i=0;i<n;i++)
+    {
+    cars.add(sc.next());
+    }
     
-     Scanner sc=new Scanner(System.in);
-     String data =sc.nextLine();
-    try {
-      // Creates an output stream
-      ByteArrayOutputStream out = new ByteArrayOutputStream();
-      byte[] array = data.getBytes();
-
-      // Writes data to the output stream
-      out.write(array,2,7);
-
-      // Retrieves data from the output stream in string format
-      String streamData = out.toString();
-      System.out.println("Original data: " + data);
-      System.out.println("Output stream: " + streamData);
-      out.close();
-    }
-
-    catch(Exception e) {
-      e.getStackTrace();
-    }
+    System.out.println(cars);
   }
 }
 ```
 
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/a47dcf53-2f26-4255-9179-79c3de038e47)
+![image](https://github.com/user-attachments/assets/a1458585-6650-4f08-83df-95aeb4bf8b84)
 
 ## RESULT:
-Thus, java program to write data using ByteArrayOutputStream was executed and verified successfully.
+Thus the Java program of the creation of a linkedlist was executed successfully.
 
 
 
