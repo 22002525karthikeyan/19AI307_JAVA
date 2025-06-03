@@ -44,6 +44,6 @@ public class Demo{
 }
 ```
 ## OUTPUT:
-
+![image](https://github.com/user-attachments/assets/fc602ceb-d2d9-4a74-a34b-917c6a8ad20a)
 ## RESULT:
 Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
