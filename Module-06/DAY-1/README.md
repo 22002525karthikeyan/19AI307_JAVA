@@ -21,11 +21,9 @@ To create a Java Program to implement Method Local Inner Class.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Inner Class using Java
 Developed by: KARTHIKEYAN R
 RegisterNumber: 212222240046
-*/
 ```
 
 ## Sourcecode.java:
