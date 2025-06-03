@@ -20,8 +20,8 @@ b.	If false, print 'num' followed by " is Non-Zero"
 ## PROGRAM:
  ```
 Program to implement a class & objects using Java
-Developed by: NANDHAKUMAR G R
-RegisterNumber:  212222100029
+Developed by: KARTHIKEYAN R
+RegisterNumber:  212222240046
 ```
 
 ## Sourcecode.java:
