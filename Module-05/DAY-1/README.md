@@ -24,24 +24,47 @@ To Create a java program to display name and location of the employee and use th
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Data Hiding & Encapsulation using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: KARTHIKEYAN R
+RegisterNumber:  212222240046
+
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+class vehicle {
+ private String vName;
+ private String vlocation;
+ public String getvName() {
+  return vName;
+ }
+ public void setvName(String vName) {
+  this.vName = vName;
+ }
+ public String getLocation() {
+  return vlocation;
+ }
+ public void setLocation(String vlocation) {
+  this.vlocation = vlocation;
+ }
+}
 
+public class EmployeMain {
+ public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+  vehicle employee = new vehicle();
+  employee.setvName(sc.nextLine());
+  employee.setLocation(sc.nextLine());
+  System.out.println(employee.getvName());
+  System.out.println(employee.getLocation());
+ }
+}
 
-
-
-
-
+```
 
 ## OUTPUT:
-
-
+![449776734-fb251483-5380-4391-8c4f-e1832e0e337e](https://github.com/user-attachments/assets/d9828ea5-2b23-49c5-aceb-628ef8d6544c)
 
 ## RESULT:
 Thus , the  java program to display name and location of the employee and use the encapsulation concepts executed successfully.
